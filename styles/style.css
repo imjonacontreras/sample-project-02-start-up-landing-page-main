@@ -1,0 +1,51 @@
+/*Gradient Background*/
+.gradient-background {
+  background: linear-gradient(300deg, #f8d135, #ff4d00b9, #ffd52e);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  W 50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} /*Navigation Bar Styles*/
+.nav-bar-app-title {
+  font-weight: bold;
+}
+.nav-bar-bg {
+  background-color: #f0f0ef;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: 2px solid white;
+  background-color: orange;
+  box-shadow: none;
+} /*Feature Section Styles*/
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: orange;
+} /*Testimonials Section Styles*/
+.img-testimonials {
+  height: 100px;
+  width: 100px;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 50%;
+  border: 5px solid orange;
+}
+.img-quote-marks{
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  min-height: 20px;
+}
